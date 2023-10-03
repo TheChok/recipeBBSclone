@@ -1,0 +1,58 @@
+package com.make.board.repository;
+
+import java.util.List;
+import java.util.Map;
+
+import com.make.board.dto.BoardDTO;
+
+public class CommentRepositoryImpl implements BoardRepository {
+
+	@Override
+	public int save(BoardDTO boardDTO) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public List<BoardDTO> findAll() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void updateHits(Long id) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public BoardDTO findById(Long id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void delete(Long id) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void update(BoardDTO boardDTO) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public List<BoardDTO> pageList(Map<String, Integer> params) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public int boardCount() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}

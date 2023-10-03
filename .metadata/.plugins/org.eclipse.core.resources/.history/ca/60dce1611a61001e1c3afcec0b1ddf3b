@@ -1,0 +1,42 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>detailx</title>
+</head>
+<body>
+	
+	<table>
+		<tr>
+			<th>ID</th>
+			<td>${board.id }</td>
+		</tr>
+		<tr>
+			<th>Writer</th>
+			<td>${board.boardWriter }</td>
+		</tr>
+		<tr>
+			<th>Title</th>
+			<td>${board.boardTitle }</td>
+		</tr>
+		<tr>
+			<th>Date</th>
+			<td>${board.CreatedTime }</td>
+		</tr>
+		<tr>
+			<th>Hits</th>
+			<td>${board.boardHits }</td>
+		</tr>
+		<tr>
+			<th>contents</th>
+			<td>${board.boardContents }</td>
+		</tr>
+	</table>
+	<button onclick="fnList();">목록</button>
+	
+</body>
+<script>
+	
+</script>
+</html>

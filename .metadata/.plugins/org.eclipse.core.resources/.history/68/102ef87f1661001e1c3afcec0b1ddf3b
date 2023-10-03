@@ -1,0 +1,10 @@
+package com.make.board.repository;
+
+import com.make.board.dto.BoardDTO;
+
+public interface BoardRepository {
+	
+	// 게시글 작성 처리
+	int save(BoardDTO boardDTO);
+	
+}

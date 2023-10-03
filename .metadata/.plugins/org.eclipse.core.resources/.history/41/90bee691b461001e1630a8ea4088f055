@@ -1,0 +1,6 @@
+package com.make.board.dto;
+
+public class PageDTO {
+	
+	
+}

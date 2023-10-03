@@ -1,0 +1,5 @@
+package com.make.board.service;
+
+public interface BoardService {
+
+}

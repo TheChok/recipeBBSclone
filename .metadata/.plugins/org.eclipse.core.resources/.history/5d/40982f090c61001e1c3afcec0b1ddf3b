@@ -1,0 +1,10 @@
+package com.make.board.service;
+
+import org.springframework.stereotype.Service;
+
+import com.make.board.repository.BoardRepository;
+
+@Service
+public class BoardServiceImpl implements BoardService {
+	private final BoardRepository boardRepository = null;
+}

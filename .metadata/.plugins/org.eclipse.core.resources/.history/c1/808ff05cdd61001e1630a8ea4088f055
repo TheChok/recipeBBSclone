@@ -1,0 +1,6 @@
+package com.make.board.repository;
+
+
+public class CommentRepositoryImpl implements CommentRepository {
+
+}

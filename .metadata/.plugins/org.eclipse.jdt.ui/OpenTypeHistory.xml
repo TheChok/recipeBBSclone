@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<typeInfoHistroy>
+    <typeInfo handle="=board/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.make.board.service{BoardService.java[BoardService" modifiers="513" timestamp="1696314087821"/>
+    <typeInfo handle="=board/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.make.board.service{CommentService.java[CommentService" modifiers="513" timestamp="1696331298030"/>
+    <typeInfo handle="=board/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.make.board.repository{BoardRepository.java[BoardRepository" modifiers="513" timestamp="1696314408902"/>
+    <typeInfo handle="=board/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.make.board.repository{CommentRepository.java[CommentRepository" modifiers="513" timestamp="1696331335570"/>
+</typeInfoHistroy>

@@ -1,0 +1,10 @@
+package com.make.board.repository;
+
+import com.make.board.dto.CommentDTO;
+
+public interface CommentRepository {
+	
+	// ´ñ±Û µî·Ï
+	void save(CommentDTO commentDTO);
+	
+}

@@ -1,0 +1,40 @@
+package com.make.board.service;
+
+import java.util.List;
+
+import org.springframework.stereotype.Service;
+
+import com.make.board.dto.BoardDTO;
+import com.make.board.repository.BoardRepository;
+
+import lombok.RequiredArgsConstructor;
+
+@Service
+@RequiredArgsConstructor
+public class BoardServiceImpl implements BoardService {
+	private final BoardRepository boardRepository;
+	
+	// 게시글 작성 처리
+	@Override
+	public int save(BoardDTO boardDTO) {
+		return boardRepository.save(boardDTO);
+	}
+	
+	// 목록 조회
+	@Override
+	public List<BoardDTO> findAll() {
+		return boardRepository.findAll();
+	}
+	
+	// 상세 페이지 조회
+	@Override
+	public BoardDTO findById(Long id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	
+	
+	
+	
+	
+}

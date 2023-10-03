@@ -1,0 +1,8 @@
+INDEX VERSION 1.4+C:\Tool\springRecipeBBS\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+274334996.index
+3137374953.index
+2529073873.index
+805836054.index
+3725330712.index
+3832561630.index
+1425716597.index

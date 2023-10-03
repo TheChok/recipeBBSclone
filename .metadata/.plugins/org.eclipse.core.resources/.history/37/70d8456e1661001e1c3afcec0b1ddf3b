@@ -1,0 +1,25 @@
+package com.make.board.service;
+
+import org.springframework.stereotype.Service;
+
+import com.make.board.dto.BoardDTO;
+import com.make.board.repository.BoardRepository;
+
+import lombok.RequiredArgsConstructor;
+
+@Service
+@RequiredArgsConstructor
+public class BoardServiceImpl implements BoardService {
+	private final BoardRepository boardRepository;
+	
+	// 게시글 작성 처리
+	@Override
+	public int save(BoardDTO boardDTO) {
+		return boardRepository.save(boardDTO);
+	}
+	
+	
+	
+	
+	
+}
